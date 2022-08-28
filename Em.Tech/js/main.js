@@ -5,7 +5,6 @@ let video = document.querySelector('.office-video__container');
 show.onclick = function() {
     if (video.style.display = 'none') {
         video.style.display = 'block';
-        document.getElementsByClassName('btn').style.opacity = '0.3'
     }
     else {
         video.style.display = 'none';
